@@ -1,5 +1,7 @@
 package com.example.android.weatherapp.model.currentweather
 
+import com.example.android.weatherapp.model.*
+
 data class CurrentWeather(
     val base: String,
     val clouds: Clouds,

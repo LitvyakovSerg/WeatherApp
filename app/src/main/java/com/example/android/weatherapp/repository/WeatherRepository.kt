@@ -1,7 +1,6 @@
 package com.example.android.weatherapp.repository
 
 import com.example.android.weatherapp.model.currentweather.WeatherResult
-import com.example.android.weatherapp.model.forecast.Coord
 import com.example.android.weatherapp.model.forecast.FiveDayForecast
 
 /**
@@ -12,7 +11,7 @@ interface WeatherRepository {
     /**
      * Getting location info like lat and lon
      */
-    suspend fun getLocationCoordinates(city: String): Coord
+    suspend fun getLocationCoordinates(city: String): com.example.android.weatherapp.model.Coord
 
     /**
      * Getting current weather for specific place by provide lat and lon

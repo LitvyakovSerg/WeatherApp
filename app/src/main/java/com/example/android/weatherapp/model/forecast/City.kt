@@ -1,5 +1,7 @@
 package com.example.android.weatherapp.model.forecast
 
+import com.example.android.weatherapp.model.Coord
+
 data class City(
     val coord: Coord,
     val country: String,

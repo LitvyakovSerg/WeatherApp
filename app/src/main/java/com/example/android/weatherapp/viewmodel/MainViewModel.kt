@@ -3,9 +3,8 @@ package com.example.android.weatherapp.viewmodel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.android.weatherapp.model.Coord
 import com.example.android.weatherapp.model.currentweather.WeatherResult
-import com.example.android.weatherapp.model.forecast.City
-import com.example.android.weatherapp.model.forecast.Coord
 import com.example.android.weatherapp.model.forecast.FiveDayForecast
 import com.example.android.weatherapp.repository.WeatherRepository
 import dagger.hilt.android.lifecycle.HiltViewModel

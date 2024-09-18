@@ -1,4 +1,4 @@
-package com.example.android.weatherapp.model.forecast
+package com.example.android.weatherapp.model
 
 data class Main(
     val feels_like: Double,
@@ -7,7 +7,6 @@ data class Main(
     val pressure: Int,
     val sea_level: Int,
     val temp: Double,
-    val temp_kf: Double,
     val temp_max: Double,
     val temp_min: Double
 )

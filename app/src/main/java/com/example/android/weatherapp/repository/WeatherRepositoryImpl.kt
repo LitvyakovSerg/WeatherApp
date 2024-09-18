@@ -1,8 +1,8 @@
 package com.example.android.weatherapp.repository
 
+import com.example.android.weatherapp.model.Coord
 import com.example.android.weatherapp.model.currentweather.WeatherResult
 import com.example.android.weatherapp.model.forecast.City
-import com.example.android.weatherapp.model.forecast.Coord
 import com.example.android.weatherapp.model.forecast.FiveDayForecast
 import com.example.android.weatherapp.network.WeatherApi
 import javax.inject.Inject

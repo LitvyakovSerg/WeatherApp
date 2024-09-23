@@ -41,7 +41,6 @@ class MainViewModelTest {
         viewModel.getCoordinates(city)
 
         //Verification
-//        assertEquals(coordinates, viewModel.coordinatesResult.value)
         assertEquals(coordinates, viewModel.coordinatesResult.value)
     }
 
